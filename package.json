@@ -1,0 +1,20 @@
+{
+  "name": "hedera-agent",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.62.0",
+    "@langchain/core": "^0.3.43",
+    "@langchain/langgraph": "^0.2.63",
+    "@langchain/openai": "^0.5.4",
+    "dotenv": "^16.4.7",
+    "hedera-agent-kit": "^1.0.6"
+  }
+}
