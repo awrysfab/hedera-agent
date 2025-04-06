@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node agent.ts"
   },
   "keywords": [],
   "author": "",
@@ -11,10 +12,16 @@
   "description": "",
   "dependencies": {
     "@hashgraph/sdk": "^2.62.0",
+    "@langchain/anthropic": "^0.3.16",
     "@langchain/core": "^0.3.43",
     "@langchain/langgraph": "^0.2.63",
     "@langchain/openai": "^0.5.4",
     "dotenv": "^16.4.7",
     "hedera-agent-kit": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   }
 }
